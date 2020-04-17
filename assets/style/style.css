@@ -1,0 +1,284 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.jumbotron {
+    background-color: #393f4d;
+    color: #feda6a;
+    text-shadow: black;
+    text-align: center;
+    font-size: 2em;
+    border-radius: 0; 
+}
+
+h1.jumboText{
+    color: #d4d4dc;
+
+}
+.jumboText{
+    font-size: 1.5em;
+}
+
+#upperRow,
+#lowerRow,
+#lowestRow,
+#secondLowestRow,
+#repResultRow{
+   box-shadow: 1px 1px 2px 2px lightgray;
+   /* color: #d4d4dc; */
+   background-color: white;
+   padding: 10px;
+   border-radius:5px;
+   margin: 10px 10px 30px 10px;
+} 
+
+#map {
+    height: 300px;
+    width: 100%;
+    border: 1px #feda6a solid;
+    /* border-radius: 5px; */
+  }
+
+  .panel{
+      border-color:  #393f4d;
+      box-shadow: 1px 1px 2px 2px lightgray;
+  }
+
+  .panel-body{
+      margin: 5px;
+      padding: 5px;
+  }
+
+  .panel-heading{
+    background-color: #393f4d;
+    color: #feda6a;
+  }
+
+
+#repSearchBtn,
+#electionBtn,
+#representBtn,
+#searchRepBtn,
+#earlySearchBtn,
+#pollSearchBtn,
+#candSearchBtn{
+    margin:15px;
+    background-color: #393f4d;
+    color: #feda6a;
+    border-color: #feda6a;
+    border-radius: 20px;
+    font-size: 17px;
+    
+}  
+#backBtn,
+#homeBtn{
+    float:right;
+    margin:15px;
+    background-color: #393f4d;
+    color: #feda6a;
+    border-color: #feda6a;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+#repSearchBtn:hover,
+#pollSearchBtn:hover,
+#backBtn:hover,
+#earlySearchBtn:hover,
+#candSearchBtn:hover,
+#electionBtn:hover,
+#representBtn:hover,
+#searchRepBtn:hover,
+#homeBtn:hover{
+    background-color: #feda6a;
+    color: #393f4d;
+}
+
+#panelHead{
+    background-color: #393f4d;
+    color: #feda6a;
+    font-size:1.3em;
+}
+
+
+.button{
+    background-color: #393f4d;
+    color: #feda6a;
+    margin: 5px;
+}
+
+.title{
+    font-size: .8em;
+}
+
+h1{
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 1.2em;
+    color: #d4d4dc;
+}
+h4{
+    text-align: center;
+    color:black;
+}
+
+#jumboText{
+    color: #d4d4dc;
+
+}
+
+.row {
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+
+}
+
+h3 {
+    text-align: center;
+    font-size: 2em;
+
+}
+
+header {
+    text-align: center;
+}
+
+body{
+    background-color: whitesmoke;
+    font-size:1.3em;
+    /* background-image: url("flag-of-america-1590766.jpg"); */
+
+}
+
+.form-control{
+    border-color: #feda6a;
+}
+
+#electionSection{
+    margin:20px;
+    padding: 20px;
+}
+
+.card{
+    text-align: center;
+    padding: 16px;
+    border: 1px solid gray;
+    /* border-radius: 5px; */
+    margin: 22px;
+    width: 29%;
+    background-color: lightgray;
+    
+}
+
+.card.img{
+    text-align: center;
+}
+
+#wellSection{
+    flex-wrap:wrap;
+    display:flex;
+}
+
+#earlyVoteSection{
+    flex-wrap:wrap;
+    display:flex;
+    margin: 15px;
+}
+
+.candidate-container{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.candidate-card{
+    text-align: center;
+    padding: 16px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 10px;
+    width: 30%;
+
+}
+
+
+.tile.is-child{
+    background-color: white;
+    box-shadow: 1px 1px 2px 2px lightgray;
+}
+
+.well{
+    margin: 10px;
+}
+
+p{
+    line-height: 1.8em;
+    font-size:1.2em;
+    text-align:center;
+}
+
+
+@media (max-width:768px){
+    p{
+        line-height: 1.3em;
+        font-size:1.1em;
+    }
+
+    #panelHead{
+        font-size:1em;
+    }
+
+    #repSearchBtn,
+    #electionBtn,
+    #representBtn,
+    #searchRepBtn,
+    #earlySearchBtn,
+    #pollSearchBtn,
+    #candSearchBtn{
+        margin:5px;
+        font-size: 10px;
+        width:45%;
+    }  
+
+    #backBtn,
+    #homeBtn{
+        float:none;
+        margin:5px;
+        font-size: 10px;
+        width:45%;
+    }
+
+    .jumbotron {
+        font-size: 1.2em;
+    }
+
+    .jumboText{
+        font-size: 1.2em;
+    }
+    .col-lg-12,
+    .col-lg-6,
+    .col-lg-3{
+        padding:0;
+    }
+
+    .card,
+    .candidate-card{
+        width:100%;
+        margin:5px;
+        padding:5px;
+    }
+
+    #earlyVoteSection,
+    #candidateSection,
+    #wellSection{
+        padding:5px;
+    }
+
+}

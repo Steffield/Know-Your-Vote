@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Know Your Vote!</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/style/style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.1.1/css/ol.css" type="text/css">
+        <!--Bulma link-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.css" rel ="stylesheet">
+
+      
+    </head>
+    <body>
+        <div class="jumbotron mx-auto">
+            <h1 class= "jumboText">Know Your Vote!</h1>
+            <p class="jumboText">Election Information</p>
+        </div>
+
+        <!-- <div class="container" id="about"> -->
+            <div class="row" id="upperRow">
+                <div class="col-lg-12">
+                    <div class="panel panel-primary justify-content-center">
+                        <div class="panel-heading" id="panelHead">
+                            <h2 class="panel-title">About</h2>
+                        </div>
+                        <div class="panel-body">
+                            <p>
+                                As United States Citizens it is our civic duty to participate in elections in order to shape the direction of our nation. Elections are held yearly for multiple offices of local, city, state, and national government. Political landscapes are continously changing and getting up to date information is paramount in making informed decisions when voting. 
+                            </p>
+                                <br>
+                                <div class="text-center">
+                                    <a href="polling.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true"id="electionBtn">Know Your Vote!</a>
+                                </div>
+                                <br>
+                            <p>Click on "Know Your Vote!" to get your personalized information regarding:</p>   
+                            <p>-Polling location and hours</p>    
+                            <p>-Early voting locations and dates</p>
+                            <p>-Candidates on each ballot</p>
+                            <p>-Current representatives</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- </div> -->
+
+      
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+        <script src="./assets/script/script.js"></script>
+        <script src="./assets/script/initialize.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.1.1/build/ol.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1MqND2SWxPfzCLjrWJW7tagrSmpgr6dI&libraries=places&callback=initialize" async defer></script>
+
+    </body>
+</html>
