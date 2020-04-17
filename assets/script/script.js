@@ -4,9 +4,7 @@ $(document).ready(function() {
     //Set up variables
     //=============================================================================
     
-    // var APIkey= "?key=AIzaSyC1MqND2SWxPfzCLjrWJW7tagrSmpgr6dI";
-    var APIkey = config.MY_KEY
-
+    var APIkey= "?key=AIzaSyC1MqND2SWxPfzCLjrWJW7tagrSmpgr6dI";
     var map;
     var queryBaseURL="https://www.googleapis.com/civicinfo/v2/";
     

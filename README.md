@@ -56,7 +56,7 @@ Future Improvements should include improved error handling and potentially addin
 
 ## Deployed Link
 
-The deployed link: <a href="https://mvn410.github.io/Project-One/">Election Info Application</a>
+The deployed link: <a href="https://steffield.github.io/Know-Your-Vote/">Election Info Application</a>
 
 <img src ="./assets/images/appCurrentDesign.png">
 
