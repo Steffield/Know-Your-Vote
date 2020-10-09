@@ -4,25 +4,25 @@
 
 ## Table of Content
 
-*[User Story](#User)
+- [User Story](#User)
 
-*[Description](#Description)
+- [Description](#Description)
 
-*[Installation](#Installation)
+- [Installation](#Installation)
 
-*[Usage](#Usage)
+- [Usage](#Usage)
 
-*[Future Improvements](#Future)
+- [Future Improvements](#Future)
 
-*[Technologies](#Technologies)
+- [Technologies](#Technologies)
 
-*[Deployed Link](#Deployed)
+- [Deployed Link](#Deployed)
 
-*[Contribution](#Contribution)
+- [Contribution](#Contribution)
 
-*[Questions](#Questions)
+- [Questions](#Questions)
 
-*[Team](#Team)
+- [Team](#Team)
 
 ## User Story
 
@@ -32,11 +32,11 @@ As a registered voter I want to be able to quickly access information about poll
 
 ## Description
 
-'Know Your Vote' is an application that allows a user to look up information about polling location, hours, early vote hours and locations, candidates on the ballot (and their affiliation) and his/her current representatives, specified by an entered address. This application makes use of the third party APIs Google Civic Information and Google Maps and was created as a team project using Bootstrap, Bulma, JavaScript, JQuery and AJAX requests. The Google Civic Information API provides information shortly before an election occurs, but might not deliver any information if the election is not occurring any time soon or the state has not provided updated information. 
+'Know Your Vote' is an application that allows a user to look up information about polling location, hours, early vote hours and locations, candidates on the ballot (and their affiliation) and his/her current representatives, specified by an entered address. This application makes use of the third party APIs Google Civic Information and Google Maps and was created as a team project using Bootstrap, Bulma, JavaScript, JQuery and AJAX requests. The Google Civic Information API provides information shortly before an election occurs, but might not deliver any information if the election is not occurring any time soon or the state has not provided updated information.
 
 ## Installation
 
-Clone the repository to your computer and open the index.html file in your browser. 
+Clone the repository to your computer and open the index.html file in your browser.
 
 ## Usage
 
@@ -74,4 +74,4 @@ If you have any questions about the repo, open an issue.
 
 ## Team
 
-<img src="https://avatars0.githubusercontent.com/u/56233744?v=4" width ="50px" height="50px">  <img src="https://avatars3.githubusercontent.com/u/47950206?s=400&u=681e1ba0c36a7616c4b725b7eaa5d7e3a8fd1792&v=4" width ="50px" height="50px">  <img src="https://avatars2.githubusercontent.com/u/58318559?s=400&u=63867c02cab88408b90435182d87d4569f8095f2&v=4" width ="50px" height="50px">  <img src="https://avatars0.githubusercontent.com/u/58635628?s=400&u=74271d5cc9ef31824e6f94f1cbe266d3b4130f97&v=4" width ="50px" height="50px">
+<img src="https://avatars0.githubusercontent.com/u/56233744?v=4" width ="50px" height="50px"> <img src="https://avatars3.githubusercontent.com/u/47950206?s=400&u=681e1ba0c36a7616c4b725b7eaa5d7e3a8fd1792&v=4" width ="50px" height="50px"> <img src="https://avatars2.githubusercontent.com/u/58318559?s=400&u=63867c02cab88408b90435182d87d4569f8095f2&v=4" width ="50px" height="50px"> <img src="https://avatars0.githubusercontent.com/u/58635628?s=400&u=74271d5cc9ef31824e6f94f1cbe266d3b4130f97&v=4" width ="50px" height="50px">
