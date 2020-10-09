@@ -331,7 +331,7 @@ $(document).ready(function () {
           $("#candWell-" + c).append(candidateContainer);
 
           var green = response.contests[c].candidates[a].party === "GREEN";
-          var liberatarian =
+          var libertarian =
             response.contests[c].candidates[a].party === "LIBERTARIAN";
           var democratic =
             response.contests[c].candidates[a].party === "DEMOCRATIC";
@@ -341,25 +341,25 @@ $(document).ready(function () {
           if (green) {
             $(candidateCard).css("background-color", "#e3eaa7");
 
-            $("#candWell-" + c).css("box-shadow", "2px 2px 2px 2px #e3eaa7");
+            $("#candWell-" + c).css("box-shadow", "2px 2px 6px 2px gray");
             $("#candWell-" + c).css("border-radius", "5px");
-          } else if (liberatarian) {
+          } else if (libertarian) {
             $(candidateCard).css("background-color", "#ffef96");
 
-            $("#candWell-" + c).css("box-shadow", "2px 2px 2px 2px #ffef96");
+            $("#candWell-" + c).css("box-shadow", "2px 2px 6px 2px gray");
             $("#candWell-" + c).css("border-radius", "5px");
           } else if (democratic) {
             $(candidateCard).css("background-color", "#deeaee");
 
-            $("#candWell-" + c).css("box-shadow", "2px 2px 2px 2px #deeaee");
+            $("#candWell-" + c).css("box-shadow", "2px 2px 6px 2px gray");
             $("#candWell-" + c).css("border-radius", "5px");
           } else if (republican) {
             $(candidateCard).css("background-color", "#eca1a6");
 
-            $("#candWell-" + c).css("box-shadow", "2px 2px 2px 2px #eca1a6");
+            $("#candWell-" + c).css("box-shadow", "2px 2px 6px 2px gray");
             $("#candWell-" + c).css("border-radius", "5px");
           } else {
-            $("#candWell-" + c).css("box-shadow", "2px 2px 2px 2px gray");
+            $("#candWell-" + c).css("box-shadow", "2px 2px 6px 2px gray");
           }
         }
       }
