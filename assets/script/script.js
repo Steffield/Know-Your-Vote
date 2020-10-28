@@ -308,11 +308,11 @@ $(document).ready(function () {
         $("#candidateSection").append(candidateSection);
 
         //attach the content to well
-        $("#candWell-" + c).append(
-          "<h2 style='font-weight:bold;'>Ballot Placement: " +
-            response.contests[c].ballotPlacement +
-            "</h2>"
-        );
+        // $("#candWell-" + c).append(
+        //   "<h2 style='font-weight:bold;'>Ballot Placement: " +
+        //     response.contests[c].ballotPlacement +
+        //     "</h2>"
+        // );
         $("#candWell-" + c).append(
           "<h2 style='font-weight:bold;'>Ballot Title/ Office : " +
             response.contests[c].office +
@@ -322,21 +322,24 @@ $(document).ready(function () {
           var candidateCard = $("<div class='candidate-card'>");
           // console.log(response.contests[c].candidates.length);
           $(candidateCard).append(
-            "<p>Candidate: " + response.contests[c].candidates[a].name + "</p>"
+            "<p>" + response.contests[c].candidates[a].name + "</p>"
           );
           $(candidateCard).append(
-            "<p>Party: " + response.contests[c].candidates[a].party + "</p>"
+            "<p><b><em>" +
+              response.contests[c].candidates[a].party +
+              "</em></b></p>"
           );
           $(candidateContainer).append(candidateCard);
           $("#candWell-" + c).append(candidateContainer);
 
-          var green = response.contests[c].candidates[a].party === "GREEN";
+          var green =
+            response.contests[c].candidates[a].party === "Green Party";
           var libertarian =
-            response.contests[c].candidates[a].party === "LIBERTARIAN";
+            response.contests[c].candidates[a].party === "Libertarian Party";
           var democratic =
-            response.contests[c].candidates[a].party === "DEMOCRATIC";
+            response.contests[c].candidates[a].party === "Democratic Party";
           var republican =
-            response.contests[c].candidates[a].party === "REPUBLICAN";
+            response.contests[c].candidates[a].party === "Republican Party";
 
           if (green) {
             $(candidateCard).css("background-color", "#e3eaa7");
